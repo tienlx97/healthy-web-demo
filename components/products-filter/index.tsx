@@ -1,18 +1,6 @@
-import { useState } from "react";
-import Slider from "rc-slider";
-
 // data
 
-const { createSliderWithTooltip } = Slider;
-const Range = createSliderWithTooltip(Slider.Range);
-
 const ProductsFilter = () => {
-  const [filtersOpen, setFiltersOpen] = useState(false);
-
-  const addQueryParams = () => {
-    // query params changes
-  };
-
   return (
     // <form className="products-filter" onChange={addQueryParams}>
     //   <button type="button"
