@@ -16,9 +16,9 @@ const IndexPage = () => {
             className="featured-item featured-item-large"
           >
             <div className="featured-item__content">
-              <h3>New arrivals are now in!</h3>
+              <h3>Hàng bán chạy</h3>
               <a href="#" className="btn btn--rounded">
-                Show Collection
+                Danh mục sản phẩm
               </a>
             </div>
           </article>
@@ -28,9 +28,9 @@ const IndexPage = () => {
             className="featured-item featured-item-small-first"
           >
             <div className="featured-item__content">
-              <h3>Basic t-shirts $29,99</h3>
+              <h3>Các loại rau sấy</h3>
               <a href="#" className="btn btn--rounded">
-                More details
+                Chi tiết
               </a>
             </div>
           </article>
@@ -40,9 +40,9 @@ const IndexPage = () => {
             className="featured-item featured-item-small"
           >
             <div className="featured-item__content">
-              <h3>Sale this summer</h3>
+              <h3>Khuyến mãi khai trương</h3>
               <a href="#" className="btn btn--rounded">
-                VIEW ALL
+                Xem thử
               </a>
             </div>
           </article>
@@ -61,8 +61,8 @@ const IndexPage = () => {
               <div className="data-item__content">
                 <h4>An toàn</h4>
                 <p>
-                  All purchases over $199 are eligible for Chất lượng via USPS
-                  First Class Mail.
+                  Sản phẩm đảm bảo có nguồn gốc rõ ràng được nhập khẩu từ Úc,
+                  Mỹ,...Các loại rau hữu cơ có chứng nhận quốc tế.
                 </p>
               </div>
             </li>
@@ -71,20 +71,17 @@ const IndexPage = () => {
               <i className="icon-payment"></i>
               <div className="data-item__content">
                 <h4>Tiện lợi</h4>
-                <p>
-                  All payments are processed instantly over a secure payment
-                  protocol.
-                </p>
+                <p>Tất cả hình thức thanh toán dễ dàng và minh bạch. .</p>
               </div>
             </li>
 
             <li>
               <i className="icon-cash"></i>
               <div className="data-item__content">
-                <h4>Money-Back Guarantee</h4>
+                <h4>Tận tâm</h4>
                 <p>
-                  If an item arrived damaged or you've changed your mind, you
-                  can send it back for a full refund.
+                  Chăm sóc sự hài lòng của khách hàng là trách nhiệm của chúng
+                  tôi .
                 </p>
               </div>
             </li>
@@ -92,11 +89,8 @@ const IndexPage = () => {
             <li>
               <i className="icon-materials"></i>
               <div className="data-item__content">
-                <h4>Finest Quality</h4>
-                <p>
-                  Designed to last, each of our products has been crafted with
-                  the finest materials.
-                </p>
+                <h4>Hoả tốc giao hàng</h4>
+                <p>Dịch vụ vận chuyển giao hàng nhanh chóng.</p>
               </div>
             </li>
           </ul>

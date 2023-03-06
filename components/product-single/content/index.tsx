@@ -65,14 +65,14 @@ const Content = ({ product }: ProductContent) => {
         <h2 className="product__name">{product.name}</h2>
 
         <div className="product__prices">
-          <h4>${product.currentPrice}</h4>
+          <h4>{product.currentPrice}</h4>
           {product.discount && <span>${product.price}</span>}
         </div>
       </div>
 
       <div className="product-content__filters">
         <div className="product-filter-item">
-          <h5>Color:</h5>
+          <h5>Màu:</h5>
           <div className="checkbox-color-wrapper">
             {productsColors.map((type) => (
               <CheckboxColor
