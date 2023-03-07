@@ -87,7 +87,7 @@ const IndexPage = () => {
             </li>
 
             <li>
-              <i className="icon-materials"></i>
+              <i className="icon-delivery-fast"></i>
               <div className="data-item__content">
                 <h4>Hoả tốc giao hàng</h4>
                 <p>Dịch vụ vận chuyển giao hàng nhanh chóng.</p>
